@@ -25,10 +25,9 @@ The `Hardware` file contains the PCB circuitry:
 
 
 * **Metal Version** ：该建议使用CNC加工制作
-* 
 * **Metal Version**: This recommendation is made using CNC machining.
 
-* 
+
   ![](/5.Docs/Images/Holo2.jpg)
 
 

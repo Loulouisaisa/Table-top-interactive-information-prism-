@@ -75,7 +75,7 @@ This is because the hardware connection to the screen and the SD card is with tw
 
 In the `Software` folder contains a Visual Studio project, open it with VS (you need to install the C++ development component) and then you can simulate the LVGL interface effect on your computer, and then paste the code into the Arduino firmware side to complete the interface porting.
 
-> 这样省的每次修改都要重新交叉编译Arduino的固件，提升开发效率。
+> 这样省得每次修改都要重新交叉编译Arduino的固件，提升开发效率。
 > 
 > This saves you from having to cross-compile the Arduino firmware every time you make a change, and improves development efficiency.
 > 
@@ -96,9 +96,9 @@ The `ImageToHolo` folder contains a Python script for converting images to image
 > 
 
 
-HoloCubic用到的图片资源名为`xxx.bin`文件，大家用我提供的脚本转好后放入SD卡，然后可以像这样读取：
+HoloCubic用到的图片资源名为`xxx.bin`文件，用提供的脚本转好后放入SD卡，像这样读取：
 
-The image resource used by HoloCubic is called `xxx.bin` file, you can use the script I provided to turn it and put it into the SD card, then you can read it like this:
+HoloCubic uses an image resource called the `xxx.bin` file, which is spun up with the provided script and placed on the SD card and read like this:
 
 ```
 lv_obj_t* imgbtn = lv_imgbtn_create(lv_scr_act(), NULL);
